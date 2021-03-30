@@ -2,6 +2,7 @@
 include 'koneksi.php';
 
 ?>
+<?php require_once("auth.php"); ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,7 +47,7 @@ include 'koneksi.php';
           <a class="nav-link text-white" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link text-white" href="index.php">User</a>
+          <a class="nav-link text-white" href="logout.php">Logout</a>
           </li>
         </ul>
       </div>

@@ -43,7 +43,7 @@ include 'koneksi.php';
 				<a class="nav-link text-white" href="#contact">Contact</a>
 				</li>
         <li class="nav-item">
-				<a class="nav-link text-white" href="admin.php">Admin</a>
+				<a class="nav-link text-white" href="login.php">Admin</a>
 				</li>
 			</ul>
 			</div>
