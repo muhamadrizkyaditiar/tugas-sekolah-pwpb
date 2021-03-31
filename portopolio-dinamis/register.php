@@ -61,16 +61,16 @@ if(isset($_POST['register'])){
             <h3 class="text-center bg-transparent mb-3 mt-2 fw-bold">Create An Account!</h3>
             <form action="" method="POST">
             <div class="form-group">
-                <input class="form-control rounded-pill mb-2 mt-4" type="text" name="name" placeholder="Nama Lengkap" />
+                <input class="form-control rounded-pill mb-2 mt-4" type="text" name="name" placeholder="Nama Lengkap" required/>
             </div>
             <div class="form-group">
-                <input class="form-control rounded-pill mb-2 mt-3" type="text" name="username" placeholder="Username" />
+                <input class="form-control rounded-pill mb-2 mt-3" type="text" name="username" placeholder="Username" required/>
             </div>
             <div class="form-group">
-                <input class="form-control rounded-pill mb-2 mt-3" type="email" name="email" placeholder="Alamat Email" />
+                <input class="form-control rounded-pill mb-2 mt-3" type="email" name="email" placeholder="Alamat Email" required/>
             </div>
             <div class="form-group">
-                <input class="form-control rounded-pill mb-2 mt-3" type="password" name="password" placeholder="Password" />
+                <input class="form-control rounded-pill mb-2 mt-3" type="password" name="password" placeholder="Password" required/>
             </div>
                     <a href="login.php"><input type="submit" class="btn btn-primary btn-block mt-2 mb-3 rounded-pill fs-6" name="register" value="SIGN UP" style="width:100%;"/></a>
                     <a href="login.php" class="text-decoration-none text-primary text-center fw-bold" style="font-size:12px; padding-left:75px;">Already have an account? Login!</a>
