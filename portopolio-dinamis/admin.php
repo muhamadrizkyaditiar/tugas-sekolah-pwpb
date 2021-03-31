@@ -168,7 +168,7 @@ include 'koneksi.php';
         <div class="container">
             <div class="row text-center mb-3 mt-3">
             <div class="col">
-                <h2 style="margin-top:65px;">Data Komentar</h2>
+                <h2 style="margin-top:65px;">Data Tanggapan</h2>
             </div>
             </div>
             <div class="row justify-content-center">
