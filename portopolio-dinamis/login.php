@@ -29,6 +29,8 @@ if(isset($_POST['login'])){
             $_SESSION["user"] = $user;
             // login sukses, alihkan ke halaman admin
             header("Location: admin.php");
+        }else{
+            header('location: login.php?status=username/password=salah');
         }
     }
 }
